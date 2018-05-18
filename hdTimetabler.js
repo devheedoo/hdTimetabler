@@ -1,17 +1,22 @@
 //Example Codes
 
 function TBlock() {
-  var title, id, prof, grade, credit, isLiberalArt;  // input values
-  var room, time;  // output values
+	// Input values
+	var title = '';
+	var id = '';
+	var prof = '';
+	var grade = 0;
+	var credit = 0;
+	var isLiberalArt = true;
+
+	// Output values
+	var room = '';
+	var time = '';
 }
-
-function getAvailableTimes() {}
-
-function isAvailable() {}
 
 function Classroom() {
 	this.name = '';
-	this.print() = function() {
+	this.print = function() {
 		console.log('');
 	}
 }
@@ -64,13 +69,19 @@ function Timetable() {
 // 주어진 시간만큼 사용가능한 곳 목록 출력하기
 // 30분단위 사용가능여부 출력하기
 // 해당 시간 강의 배정유무 확인
+// 교수, 학년 비교해서 중복여부 확인
+// 교수님 연구일 확인
 // 
 
+
+function getAvailableTimes() {}
+
+function isAvailable() {}
 
 
 var lec0123 = new TBlock();
 lec0123.title = 'Lecture0123';
-lec0123.id = 'LEC01234';
+lec0123.id = 'LEC0123';
 lec0123.prof = 'Gildong, Hong';
 lec0123.grade = 3;
 lec0123.credit = 3;
