@@ -1,4 +1,4 @@
-//Example Codes
+// Example Codes
 
 function TBlock() {
 	// Input values
@@ -77,7 +77,6 @@ function Timetable() {
 function getAvailableTimes() {}
 
 function isAvailable() {}
-
 
 var lec0123 = new TBlock();
 lec0123.title = 'Lecture0123';
